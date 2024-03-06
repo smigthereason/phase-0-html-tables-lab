@@ -5,22 +5,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 150px;
   }
   
   .three-by-three-table {
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
     width: 300px;
     border: 20px solid black;
   }
   
-  .three-by-three-table, .three-by-three-table td {
+  /*.three-by-three-table, .three-by-three-table td {
     border: 10px solid black;
-  }
+  }*/
   
-  .three-by-three-table td {
-    padding: 8px;
-    text-align: left;
-    color: blue;
+  tr, th, td{
+    border: 1px solid black;
+    padding: 10px;
   }
   
